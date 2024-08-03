@@ -1,0 +1,435 @@
+
+*{
+    color:rgb(37, 87, 108);
+    font-family:"Poppins";
+    font-weight:400;
+    font-style:normal;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0px;
+    align-items:center;
+}
+
+
+p{
+    line-height:1.5;
+    font-size:16px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right: 0px;
+    padding-left:100px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    padding-top:0px;
+    flex-wrap:wrap;
+    margin:10px;
+}
+
+.fa-thumbs-up{
+    padding-right: 20px;
+}
+
+
+.nav li{
+    list-style-type:none;
+}
+
+.nav li a{
+    color:rgb(97, 95, 95);
+    text-decoration:none;
+}
+
+
+.about{
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+
+
+.nav-buttons{
+    display:flex;
+    gap: 10px;
+    text-decoration:none;
+    flex:1;
+}
+
+.flex2{
+    margin-right:0px;
+    display:flex;
+    text-decoration:none;
+    flex:1;
+}
+
+
+
+.flex3{
+    padding:10px;
+    border:1px solid black;
+    margin-right:5px;
+    border-radius:5px;
+}
+
+
+.flex4{
+    padding-left:10px;
+    background-color:#FC6666;
+    margin-left:5px;
+    border:1px solid #FC6666;;
+    border-radius: 5px;
+    padding:10px;  
+    color:white;
+}
+
+.flex4 a{
+    color:white !important;
+}
+
+.fa-rocket{
+    padding:5px;
+}
+
+main{
+    margin:10%;
+    margin-top:0%;
+}
+
+
+.download-button{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width:50px;
+    gap:15px;
+    width:fit-content;
+    align-items: center;
+    margin-left:35%;
+    padding:15px;
+
+}
+
+    
+
+.apple-store .fa-apple{
+    color:white;
+    font-size:40px;
+    text-decoration: none;
+    padding:2px;
+}
+
+.apple-store{
+    display:flex;
+    gap:15px;
+    background-color:rgb(37, 87, 108);
+    border-radius:10px;
+    border: none;
+    padding:5px;
+
+}
+
+.play-store{
+    display:flex;
+    gap:15px;
+    background-color:rgb(37, 87, 108);
+    padding: 5px;
+    border-radius:10px;
+}
+
+.play-store .fa-google-play{
+    color:white;
+    font-size:40px;
+    text-decoration: none;
+    padding:2px;
+}
+
+.text{
+    text-align:left;
+    color: white !important;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 60px;
+    line-height:0px;
+}
+
+h2{
+    font-size: 40px;
+    line-height:0px;
+}
+
+h3{
+    font-size:30px;
+    line-height:0px;
+}
+
+h4{
+    font-size:20px;
+    line-height:0px;
+}
+
+.section1{
+    text-align:center;
+    justify-items: center;
+    margin-top:100px;
+
+}
+.section1 p{
+    font-size:1.2rem;
+    font-weight:light;
+}
+
+.section2 img{
+    margin:100px;
+}
+
+.section3{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:50px;
+    text-align:center;
+    padding:40px;
+}
+
+.fa-basket-shopping{
+    font-size:50px;
+    color:rgb(28, 69, 28);
+    text-decoration:none;
+}
+
+.fa-map-location-dot{
+    font-size:50px;
+    color:rgb(28, 69, 28);
+    text-decoration:none;
+}
+
+.fa-money-bill-wave{
+    font-size:50px;
+    color:rgb(28, 69, 28);
+    text-decoration:none;
+}
+
+.section4{
+    text-align:center;
+    padding: 40px;
+}
+
+.section4 p{
+    font-size:20px;
+}
+
+.section5{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:50px;
+    padding-bottom:0px;
+    align-items:center;
+    padding-left:50px;
+}
+
+.section5 p{
+    text-align:left;
+}
+
+.section6{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:100px;
+    align-items:center;
+    padding-top:0px;
+    
+}
+
+.section6 img{
+    padding-left:0px;
+}
+.section6 p{
+    text-align:left;
+}
+
+.section6 .learn-more{
+   padding:10px;
+
+}
+
+.fa-download{
+    font-size:14px;
+    color:white;
+}
+
+main .learn-more{
+    border-radius: 8px;
+    background-color:rgb(37, 87, 108);
+    color:white;
+    font-size: 14px;
+    padding:10px
+}
+
+.section7{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:50px;
+    
+}
+
+
+
+.section7 div{
+    border:1px solid rgb(236, 228, 228);
+    padding:50px;
+    padding-top:5px;
+    padding-bottom:10px;
+    border-radius:10px;
+    line-height: 0px;
+}
+
+
+.section8{
+    text-align: center;
+    padding:50px;
+    padding-bottom:10px;
+}
+
+.section9{
+    text-align:center;
+    padding:50px;
+    padding-bottom:0px;
+}
+
+.section10{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:50px;
+    margin:0px !important;
+    align-items: center;
+    margin-top:0px;
+    padding: 0px;
+
+}
+
+.section10 button{
+    background-color:rgb(37, 87, 108);
+    color:white;
+    font-size:18px;s
+}
+
+.apple-play{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    padding-left:0px;
+}
+
+.apple{
+    display:flex;
+    gap:15px;
+    border-radius:10px;
+    text-align:left;
+    padding:10px;
+}
+
+.section10 .fa-apple{
+    color:white;
+    font-size:40px;
+    text-decoration:none;
+   
+}
+
+.play{
+    display:flex;
+    gap:15px;
+    border-radius:10px;
+    padding:10px;
+}
+
+.section10 .fa-google-play{
+    color:white;
+    font-size:40px;
+    text-decoration:none;
+}
+
+.section10 p{
+    text-align:left;
+    font-size:18px;
+}
+
+.section10 h1{
+    text-align:left;
+}
+
+.section11{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:100px;
+    background-color:white;
+    justify-content:space-between;
+    margin:10%;
+    margin-top:0px !important;
+    margin-bottom:0px;
+
+}
+
+.section11 p{
+    text-align:left;
+}
+
+footer label{
+    margin:5px;
+    width:100%;
+    background-color:rgb(37, 87, 108);
+    height:30px; 
+}
+
+#subscribe{
+    width:80%;
+    border: 1px solid rgb(77, 165, 143);
+    border-radius:5px;
+    padding:5px;
+    height:30px;
+    margin-bottom:5px;
+    outline-color:rgb(77, 165, 143);
+
+}
+
+footer a{
+    text-decoration:none;
+}
+.footer3 button{
+    width:83%;
+    height:40px;
+    border-radius:5px;
+    border: 1px solid rgb(37, 87, 108);
+    background-color: rgb(37, 87, 108);
+    color:white;
+    font-size:14px;
+    padding:5px;
+}
+
+.fa-twitter{
+    color:rgb(30, 30, 208);
+    margin:5px;
+}
+
+.fa-facebook{
+    color:rgb(95, 95, 226);
+    margin:5px;
+}
+
+.fa-github{
+    margin:5px;
+}
+
+.fa-basketball{
+    color:rgb(226, 95, 178);
+    margin:5px;
+}
+
+.section12{
+    text-align:center;
+}
+
